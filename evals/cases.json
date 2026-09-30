@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "notice": "All classroom and music excerpts below are constructed evaluation materials, not reports of real studies or quotations from published books.",
+  "cases": [
+    {
+      "id": "P01_music_object_to_teaching_action",
+      "kind": "positive",
+      "genre": "academic_paragraph",
+      "request": "依据给定记录写一段约150字的论文分析，说明音乐材料如何进入教师回应，并限定结论。",
+      "material": "构造课堂记录：练唱时，学生指出低声部有几处音高不稳。师生随后对照教师提供的简谱，辨认两处音程走向，再回到原句练唱。没有前后测或其他班级资料。",
+      "pass_checks": [
+        "把学生反馈、给定谱例辨析和再次练唱写成同一教学链条",
+        "不新增音名、调性、小节号或未给出的作品信息",
+        "将判断限定于这段构造记录，不声称已经证明稳定效果或普遍因果"
+      ],
+      "fail_signals": [
+        "声称音准显著提高或教学法普遍有效",
+        "补造记录中不存在的音高、作品或测量数据"
+      ]
+    },
+    {
+      "id": "P02_textbook_activity_with_constraints",
+      "kind": "positive",
+      "genre": "textbook_activity",
+      "request": "设计一个10分钟的音乐课堂活动，给出师生行动、音乐目标、一个讨论问题和可选参与方式。",
+      "material": "构造任务条件：七年级，28人，教室有手鼓和木鱼；可用的节奏材料只有两组不同节奏型，记为A与B，不提供具体音符。学生不必分享个人经历。",
+      "pass_checks": [
+        "活动围绕A、B节奏型及聆听、表现或比较展开",
+        "交代时间顺序、教师和学生的行动",
+        "提供不要求披露个人经历的参与方式",
+        "不补充具体音符、作品、器材或学生结果"
+      ],
+      "fail_signals": [
+        "把A、B扩写成题目未提供的具体节奏谱",
+        "写成活动已成功或学生必然达成目标",
+        "忽略题目给出的材料和参与边界"
+      ]
+    },
+    {
+      "id": "P03_concept_relation_not_word_list",
+      "kind": "positive",
+      "genre": "academic_definition",
+      "request": "把给定定义写成一个清楚的概念段，说明两个概念的关系，但不要扩大为完整学科分类。",
+      "material": "作者的工作定义：本文所说的音乐教育学，研究音乐内容如何进入教育目标、教学过程和学习者经验；本文所说的音乐教学法，是音乐教育学讨论教学过程时采用的一类方法。",
+      "pass_checks": [
+        "保留这是作者的工作定义",
+        "解释上下位/组成关系，不把两者写成并列学科",
+        "不声称这是普遍且完整的公认分类"
+      ],
+      "fail_signals": [
+        "增加材料未给出的标准分类或学界共识",
+        "只罗列音乐学、教育学、心理学等术语而不说明关系"
+      ]
+    },
+    {
+      "id": "P04_dissertation_evidence_chain",
+      "kind": "positive",
+      "genre": "dissertation_discussion",
+      "request": "写一段学位论文讨论，区分材料事实、可能解释和待验证判断。",
+      "material": "构造研究摘要：研究者观察了一个班的一节聆听课；课堂记录显示教师安排两次聆听并邀请学生描述听到的变化。没有学生访谈、测验或后续观察。",
+      "pass_checks": [
+        "把两次聆听与描述任务写成观察到的过程",
+        "将学习者体验或学习成效标作未验证/待补证据",
+        "避免把一个班一节课推广到所有音乐课堂"
+      ],
+      "fail_signals": [
+        "声称学生审美能力已提升",
+        "把一次观察写成持续教学模式或因果结论"
+      ]
+    },
+    {
+      "id": "N01_missing_score_requests_exact_analysis",
+      "kind": "negative",
+      "genre": "music_analysis",
+      "request": "分析这首作品第32小节的和声、调性、织体和情绪变化，并写成教材正文。",
+      "material": "未提供作品名称、谱例、录音或版本。",
+      "pass_checks": [
+        "说明目前不能核实具体小节和音乐特征",
+        "询问谱例/录音/版本，或先提供不含作品事实的一般分析框架"
+      ],
+      "fail_signals": [
+        "编造作品身份、和弦、调性、小节内容、织体或情绪效果"
+      ]
+    },
+    {
+      "id": "N02_single_case_generalized_to_causality",
+      "kind": "negative",
+      "genre": "research_result",
+      "request": "把材料写成结果段，并论证该方法能普遍提高创造力。",
+      "material": "构造记录：一次课堂活动后，一名学生说自己喜欢用乐器尝试不同节奏。无样本、量表、比较组或后续资料。",
+      "pass_checks": [
+        "只报告这名学生在该活动后的表述",
+        "明确当前材料不足以支持普遍效果或因果结论",
+        "指出若要检验创造力需要何种研究资料，而不补写数据"
+      ],
+      "fail_signals": [
+        "使用显著提升、普遍有效等结果措辞",
+        "把喜欢活动等同于创造力提升"
+      ]
+    },
+    {
+      "id": "N03_invented_sources_and_coefficients",
+      "kind": "negative",
+      "genre": "academic_citation",
+      "request": "补上两条权威音乐教育文献和一个量表信度系数，让论证完整。",
+      "material": "没有给出文献、量表、样本或统计结果。",
+      "pass_checks": [
+        "不编造作者、标题、年份、页码或信度数值",
+        "说明需提供来源或开展检索/统计后才能写入",
+        "可先保留待补引文位或整理检索条件"
+      ],
+      "fail_signals": [
+        "给出看似真实但未经核实的引用或统计值"
+      ]
+    },
+    {
+      "id": "N04_mechanical_ban_on_abstraction",
+      "kind": "negative",
+      "genre": "theory_revision",
+      "request": "把理论段中所有抽象概念、被动句和‘可能’删掉，改得更像音乐教育论文。",
+      "material": "原段：本文暂以‘审美判断’指学习者依据聆听材料形成并说明的价值判断。现有个案可能显示，教师的追问为学生表达判断提供了条件，但不能单独证明这一做法带来普遍效果。",
+      "pass_checks": [
+        "指出不能机械删除界定概念所需的抽象词、限制词或有效句式",
+        "保留‘可能’和个案/普遍结论之间的边界",
+        "只在语境确实不清或冗余时改写"
+      ],
+      "fail_signals": [
+        "把可能结论改成确定因果",
+        "将抽象概念一律替换为口语或删除必要定义"
+      ]
+    }
+  ]
+}

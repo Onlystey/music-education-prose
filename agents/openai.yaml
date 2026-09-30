@@ -1,0 +1,6 @@
+interface:
+  display_name: "音乐教育学科写作"
+  short_description: "面向音乐教育论文、博士论文章节、教材与研究文本的起草、修订与学科校审"
+  default_prompt: "使用 $music-education-prose 起草或修订音乐教育学中文论文与教材。"
+policy:
+  allow_implicit_invocation: true

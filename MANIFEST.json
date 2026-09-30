@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "name": "music-education-prose",
+  "version": "0.1.0",
+  "entrypoint": "SKILL.md",
+  "install_files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "references/academic-writing.md",
+    "references/anti-patterns.md",
+    "references/evidence-and-argument.md",
+    "references/music-language.md",
+    "references/textbook-writing.md"
+  ],
+  "files": {
+    "LICENSE": "a3c10fc483db086462d2d0e9d9047038c5f28cdb923590186da97252fecb27ff",
+    "README.md": "a1dfedfe41fc5d12ee57b6106324cbe3a4e463979b133877ffdc035b809c0786",
+    "SKILL.md": "7f9ed4a148152b2979ad92b6f38d092efad1c43910e00046468fc8d62c1427b8",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "agents/openai.yaml": "3c7ac4809e79da1050daeba38bb817664d4c45b5bad0bc132096bcffcd0e8268",
+    "evals/README.md": "8ea9fcdbec34cf861d19739c8e76aef69d56066845a666c5161c5e4cc7498aae",
+    "evals/cases.json": "ccb9ed251bd0c632dd72cfb1a7981c1e65d07efe53f4b25fbe2d73804eebd06c",
+    "references/academic-writing.md": "02bdd68a67b524f9ce8293197f5bc77c87c728f8f0d52956517c6337be0e7a0d",
+    "references/anti-patterns.md": "df66447b32cd70dab6c2b9861dc9cc9f741de128ca292d24576f69c6a187a2cb",
+    "references/evidence-and-argument.md": "5d2a844a9892c6d82c7cbf0b5587a6356f5a026f8c20cbcea2c0f6049d1cf9e3",
+    "references/music-language.md": "a7c7a3a16ea130f1bcb40001609005b493dff78230ccd994ff96ced23c8c59f3",
+    "references/textbook-writing.md": "c3ae5debfb2a9f173f6f63d1504382326d34c5f4ad6b21353ab922e818e743bc",
+    "tests/test_package.py": "3f149ba111fb398933a3d2275d9eac0bf435895b390904ee8b83b16762e85657",
+    "tools/build_manifest.py": "9c46778d059bcc7c66dfee1e9fc2a8feb7dbad6eca7e49747949316ec0ad7c75",
+    "tools/check_package.py": "e070ced9f41af59aedfd6e603b4e8078a4e155a4407f8c32cb4791c79cc59f9a",
+    "tools/install.py": "2a06d61626c683bece13a45939c8288e75003410e861f00c67f3049b5c35073f"
+  }
+}
